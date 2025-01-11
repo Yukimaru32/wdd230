@@ -1,0 +1,169 @@
+header{
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+h1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    background-color: dodgerblue;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    text-shadow: 6px 6px darkblue;
+}
+#menu nav{
+    display: flex;
+    list-style: none;;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    background-color:bisque;
+}
+#menu nav a {
+    margin: 15px;
+    color:aliceblue;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: cadetblue;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 6px 6px darkblue;
+
+}
+nav a{
+    color: aliceblue;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    margin: 20px;
+    font-style: normal;
+    padding: 10px;
+}
+nav a:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+#menu nav a:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+h3{
+    background-color: bisque;
+    padding: 1rem;
+    margin: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    color: black;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    color: black;
+    background-color: white;
+    margin: 0;
+}
+h2{
+
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+hr{
+    align-self:center;
+    width: 90%;
+}
+main{
+    
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 2fr;
+    margin:2rem auto;
+    gap:2rem
+
+ 
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color: cadetblue;
+}
+.country{
+    display: flex;
+}
+.card{
+    border-radius: 10px;
+    background-color: cadetblue;
+    margin: 1rem;
+    box-shadow: 6px 6px darkblue;
+}
+.resources{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.link{
+    font-size: 20px;
+}
+main .image{
+    margin:10px;
+    height:150px;
+    border-radius: 8px;
+
+    position: relative;
+}
+
+footer{
+    color: aliceblue;
+    background-color: dodgerblue;
+    height: 100px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+span{
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px;
+}
+section nav {
+    display: flex;
+    flex-direction: column;
+}
+li{
+    color: aliceblue;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    margin: 20px;
+    font-style: normal;
+    color: aliceblue;
+    list-style-type: decimal-leading-zero;
+}
+img{
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+}
+header img{
+    height: 100px;
+    width: 90px;
+}
+h2{
+    text-align: center;
+    
+}
