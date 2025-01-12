@@ -54,6 +54,7 @@
     nav a:hover{
         color: aliceblue;
         background-color: dodgerblue;
+        border-radius: 8px;
     }
     #menu nav a:hover{
         color: aliceblue;
@@ -97,12 +98,6 @@
         gap:2rem
         
         
-    }
-    .intro{
-        display: flex;
-        justify-content: space-between;
-        width:100%;
-        background-color: cadetblue;
     }
     .country{
         display: flex;
