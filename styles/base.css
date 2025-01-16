@@ -9,7 +9,7 @@
         font-family: "DM Serif Text", serif;
         font-weight: 400;
         font-style: normal;
-        color: aliceblue;
+        color: white;
         background-color: dodgerblue;
         height: 100px;
         align-content: center;
@@ -31,20 +31,20 @@
     }
     #menu nav a {
         margin: 15px;
-        color:aliceblue;
+        color:white;
         font-family: "Open Sans", serif;
         font-weight: 400;
         font-style: normal;
         margin-left: 30px;
         margin-right: 30px;
-        background-color: cadetblue;
+        background-color:rgb(44, 100, 101);
         padding: 25px;
         border-radius: 8px;
         box-shadow: 6px 6px darkblue;
         
     }
     nav a{
-        color: aliceblue;
+        color: white;
         font-family: "Open Sans", serif;
         font-weight: 400;
         margin: 20px;
@@ -52,12 +52,12 @@
         padding: 10px;
     }
     nav a:hover{
-        color: aliceblue;
+        color: white;
         background-color: dodgerblue;
         border-radius: 8px;
     }
     #menu nav a:hover{
-        color: aliceblue;
+        color: white;
         background-color: dodgerblue;
     }
     h3{
@@ -104,7 +104,7 @@
     }
     .card{
         border-radius: 10px;
-        background-color: cadetblue;
+        background-color: rgb(44, 100, 101);
         margin: 1rem;
         box-shadow: 6px 6px darkblue;
     }
@@ -127,7 +127,7 @@
     }
     
     footer{
-        color: aliceblue;
+        color: white;
         background-color: dodgerblue;
         height: 100px;
         align-content: center;
@@ -149,12 +149,12 @@
         flex-direction: column;
     }
     li{
-        color: aliceblue;
+        color: white;
         font-family: "Open Sans", serif;
         font-weight: 400;
         margin: 20px;
         font-style: normal;
-        color: aliceblue;
+        color: white;
         list-style-type: decimal-leading-zero;
     }
     img{
@@ -171,6 +171,6 @@
         
     }
     div span{
-        color: aliceblue;
+        color: white;
     }
 }

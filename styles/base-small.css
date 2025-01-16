@@ -10,7 +10,7 @@ h1{
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
-    color: aliceblue;
+    color: white;
     background-color: dodgerblue;
     height: 100px;
     align-content: center;
@@ -34,7 +34,7 @@ h1{
     text-align: center;
     margin:0;
     width: 100%;
-    color:aliceblue;
+    color:white;
     font-family: "Open Sans", serif;
     font-weight: 400;
     font-style: normal;
@@ -44,7 +44,7 @@ h1{
     
 }
 nav a{
-    color: aliceblue;
+    color: white;
     font-family: "Open Sans", serif;
     font-weight: 400;
     margin: 20px;
@@ -52,11 +52,11 @@ nav a{
     padding: 10px;
 }
 nav a:hover{
-    color: aliceblue;
+    color: white;
     background-color: dodgerblue;
 }
 #menu nav a:hover{
-    color: aliceblue;
+    color: white;
     background-color: dodgerblue;
 }
 h3{
@@ -127,7 +127,7 @@ main .image{
 }
 
 footer{
-    color: aliceblue;
+    color: white;
     background-color: dodgerblue;
     height: 100px;
     width: 100%;
@@ -149,12 +149,12 @@ section nav {
     flex-direction: column;
 }
 li{
-    color: aliceblue;
+    color: white;
     font-family: "Open Sans", serif;
     font-weight: 400;
     margin: 20px;
     font-style: normal;
-    color: aliceblue;
+    color: white;
     list-style-type: decimal-leading-zero;
 }
 img{
@@ -171,6 +171,6 @@ h2{
     
 }
 div span{
-    color: aliceblue;
+    color: white;
     margin: 25px;
 }
