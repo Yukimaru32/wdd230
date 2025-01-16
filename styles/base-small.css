@@ -1,7 +1,7 @@
 
 header{
     display: flex;
-    background-color: dodgerblue;
+    background-color: rgb(18, 68, 99);
     justify-content: center;
     width: 100%;
 }
@@ -11,7 +11,6 @@ h1{
     font-weight: 400;
     font-style: normal;
     color: white;
-    background-color: dodgerblue;
     height: 100px;
     align-content: center;
     text-align: center;
@@ -38,7 +37,7 @@ h1{
     font-family: "Open Sans", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: cadetblue;
+    background-color: rgb(44, 100, 101);
     padding: 5px;
 
     
@@ -52,12 +51,12 @@ nav a{
     padding: 10px;
 }
 nav a:hover{
-    color: white;
-    background-color: dodgerblue;
+    color: black;
+    background-color: white;
 }
 #menu nav a:hover{
-    color: white;
-    background-color: dodgerblue;
+    color: black;
+    background-color: white;
 }
 h3{
     background-color: bisque;
@@ -92,12 +91,7 @@ main{
 
     
 }
-.intro{
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-    background-color: cadetblue;
-}
+
 .country{
     display: flex;
     align-items: center;
@@ -105,7 +99,7 @@ main{
 .card{
     margin: 10px auto;
     border-radius: 10px;
-    background-color: cadetblue;
+    background-color: rgb(44, 100, 101);
     box-shadow: 6px 6px darkblue;
 }
 .resources{
@@ -128,7 +122,7 @@ main .image{
 
 footer{
     color: white;
-    background-color: dodgerblue;
+    background-color: rgb(18, 68, 99);
     height: 100px;
     width: 100%;
     align-content: center;

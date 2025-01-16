@@ -2,7 +2,7 @@
     
     header{
         display: flex;
-        background-color: dodgerblue;
+        background-color: rgb(18, 68, 99);
         justify-content: center;
     }
     h1{
@@ -10,7 +10,6 @@
         font-weight: 400;
         font-style: normal;
         color: white;
-        background-color: dodgerblue;
         height: 100px;
         align-content: center;
         text-align: center;
@@ -52,13 +51,13 @@
         padding: 10px;
     }
     nav a:hover{
-        color: white;
-        background-color: dodgerblue;
+        color: black;
+        background-color: white;
         border-radius: 8px;
     }
     #menu nav a:hover{
-        color: white;
-        background-color: dodgerblue;
+        color: black;
+        background-color: white;
     }
     h3{
         background-color: bisque;
@@ -128,7 +127,7 @@
     
     footer{
         color: white;
-        background-color: dodgerblue;
+        background-color: rgb(18, 68, 99);
         height: 100px;
         align-content: center;
         align-items: center;
