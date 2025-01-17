@@ -1,0 +1,49 @@
+header{
+    max-width: 640px;
+    margin:1rem auto;
+    text-align: center;
+}
+h1{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+h2{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+  padding: 15px;
+  background-color: white;
+}
+main{
+    display: grid;
+    max-width: 640px;
+    margin:1rem auto;
+
+}
+section{
+    background-color: blue;
+    margin: 15px;
+}
+h3{
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+}
+footer{
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    background-color: blue;
+    max-width: 640px;
+    margin:1rem auto;
+    padding: 15px;
+    text-align: center;
+}

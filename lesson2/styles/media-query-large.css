@@ -1,0 +1,24 @@
+@media screen and (min-width: 500px) {
+
+    h1{
+        color: aliceblue;
+
+    }
+    main{
+        display: flex;
+        gap:2rem;
+    }
+    section{
+        background-color: white;
+        width: 50%;
+        margin:10px;
+    }
+    h2{
+        color: white;
+        background-color: black;
+    }
+    h3{
+        color: black;
+    }
+
+}
