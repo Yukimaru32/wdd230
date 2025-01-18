@@ -1,0 +1,13 @@
+@media screen and (min-width: 1000px) {
+    header,
+    footer{
+        max-width: 2000px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section{
+        margin: 20px;
+    }
+}
