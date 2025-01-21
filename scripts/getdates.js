@@ -11,7 +11,9 @@ function displayLastModified() {
 
     // HTMLの要素に最終更新日を表示
     document.getElementById("lastModified").textContent = `Last Modified: ${formattedDate}`;
+    document.getElementById("currentyear").textContent = `${date.getFullYear()}`;
 }
+
 
 // 関数を実行
 displayLastModified();
