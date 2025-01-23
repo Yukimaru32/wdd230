@@ -13,7 +13,13 @@ function displayLastModified() {
     document.getElementById("lastModified").textContent = `Last Modified: ${formattedDate}`;
     document.getElementById("currentyear").textContent = `${date.getFullYear()}`;
 }
+const mainnav = document.querySelector(".navigation");
+const menubutton = document.querySelector("#menu");
 
+menubutton.addEventListener("click",() =>{
+    mainnav.classList.toggle("show");
+    menubutton.classList.toggle("show");
+});
 
 // 関数を実行
 displayLastModified();
