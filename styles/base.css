@@ -95,9 +95,9 @@
         
         max-width: 100%;
         display:grid;
-        grid-template-columns: 2fr;
+        grid-template-columns: 2fr ;
         margin:2rem auto;
-        gap:2rem
+        gap:2rem;
         
         
     }
@@ -177,5 +177,12 @@
     }
     #menu{
         display: none;
+    }
+    iframe{
+        width: 80%;
+        margin: 80px 150px;
+        height: 500px;
+        
+        
     }
 }
