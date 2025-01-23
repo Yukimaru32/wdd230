@@ -169,6 +169,7 @@ div span{
 #menu::before{
     content: "≡";
 }
+
 .navigation{
     list-style: none;
     margin:0 auto;
