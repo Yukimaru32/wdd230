@@ -20,12 +20,11 @@
     .navigation nav{
         max-width: 1800px;
         display: flex;
-        flex-direction: row;
         list-style: none;
         height: 100px;
         align-items: center;
         justify-content: space-between;
-        flex: 1;
+        flex: 1 1 100%;
         background-color:bisque;
     }
     .navigation nav a {
@@ -39,6 +38,11 @@
         border-radius: 8px;
         box-shadow: 6px 6px darkblue;
         
+    }
+    .navigation ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
     .navigation li{
         display: block;
