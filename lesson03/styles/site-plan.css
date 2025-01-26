@@ -1,0 +1,44 @@
+:root{
+    --textwhite : white;
+    --sectionbc: #3A3636;
+    --shema1: #265592;
+    --schema2: #C8210E;
+}
+body{
+    text-align: center;
+}
+section{
+    color: var(--textwhite);
+    background-color: var(--sectionbc);
+    padding: 10px;
+    margin:20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+header,
+footer{
+    font-family: "Heebo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textwhite);
+    background-color: #265592;
+    padding: 10px;
+    margin:20px;
+}
+.square{
+    height: 50px;
+    width:50px;
+    background-color: #C8210E;
+    margin: 10px;
+}
+.colors ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
