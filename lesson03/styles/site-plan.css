@@ -62,3 +62,20 @@ img{
     width:360px;
     margin: 10px auto;
 }
+#gothic{
+    font-family: "Gothic A1", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#roboto{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#heebo{
+    font-family: "Heebo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
