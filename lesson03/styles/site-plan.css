@@ -1,15 +1,16 @@
 :root{
-    --textwhite : white;
+    --textwhite : #FFFF;
     --sectionbc: #3A3636;
     --shema1: #265592;
     --schema2: #C8210E;
+    --section: black;
 }
 body{
     text-align: center;
 }
 section{
     color: var(--textwhite);
-    background-color: var(--sectionbc);
+    background-color: var(--section);
     padding: 10px;
     margin:20px;
 }
@@ -25,20 +26,39 @@ footer{
     font-weight: 400;
     font-style: normal;
     color: var(--textwhite);
-    background-color: #265592;
+    background-color:var(--shema1);
     padding: 10px;
     margin:20px;
 }
 .square{
     height: 50px;
     width:50px;
-    background-color: #C8210E;
     margin: 10px;
 }
 .colors ul{
+    padding:0;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
-
-
+#color1{
+    background-color:var(--textwhite);
+}
+#color2{
+    background-color:#3A3636;
+}
+#color3{
+    background-color:#265592;
+}
+#color4{
+    background-color:#C8210E;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 520px;
+    width:360px;
+    margin: 10px auto;
+}
