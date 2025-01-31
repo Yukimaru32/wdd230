@@ -58,9 +58,10 @@ footer{
     justify-content: center;
 }
 img{
-    height: 520px;
-    width:360px;
+    height: 70%;
+    width:50%;
     margin: 10px auto;
+    max-height: 400px;
 }
 #gothic{
     font-family: "Gothic A1", serif;
