@@ -11,7 +11,8 @@
     <meta name="og:title" content="Chibanion Chamber of Commerce">
     <meta name="og:image" content="https://yukimaru32.github.io/wdd230/chamber/images/chibanion.png">
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base-small.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,17 +24,20 @@
         <div class="titletop">
             <a href="index.html"><img src="images/chibanion.png" alt ="icon"></a>
             <h1>Chibanion Chamber of Commerce</h1>
+            <a id="menu" href="#"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#" >button</a></li>
-                <li><a href="#" >button</a></li>
-                <li><a href="#" >button</a></li>
-                <li><a href="#" >button</a></li>
-            </ul>
-        </nav>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#" >button</a></li>
+                    <li><a href="#" >button</a></li>
+                    <li><a href="#" >button</a></li>
+                    <li><a href="#" >button</a></li>
+                </ul>
+            </nav>
+        </div>       
     </header>
-    
+
     <main>
             <img class ="hero" src="images/bigcite.jpg" alt="bigscenary image">
             <a id="button" href="#">Join Now</a>
@@ -59,6 +63,7 @@
         <img src="images/chibanion.png" alt="logo">
         <p>&copy;<span id="currentyear"></span> Yuki Ikeda | &#x1f38d;Japan&#x1f38d; | <span id="lastModified"></span></p>
     </footer>
-    <script src="/scripts/getdates.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
