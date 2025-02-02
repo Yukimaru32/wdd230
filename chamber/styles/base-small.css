@@ -46,6 +46,7 @@
     transition: 0.5s;
     font-size: clamp(1rem,2vmin,1.5rem);
     border-radius: 8px;
+
 }
 .show li{
     display: block;
