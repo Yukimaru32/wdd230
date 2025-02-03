@@ -35,6 +35,7 @@
         color:var(--white);
     }
     header{
+        display: block;
         text-align: center;
         background-color: var(--blue);
     }
