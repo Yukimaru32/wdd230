@@ -9,7 +9,9 @@
 
 
 @media screen and (min-width:750px){
-    
+    h1{
+        font-size: 30px;
+    }
     .titletop {
         display: flex;
         align-items: center;
@@ -110,7 +112,7 @@
     }
     .navigation li{
         display: block;
-        margin: 10px;
+        margin: 0;
 
     }
 }
