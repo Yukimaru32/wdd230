@@ -52,11 +52,13 @@ section{
 }
 .goback{
     color: #C8210E;
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Roboto Slab", serif;
     font-weight: 400;
     font-style: normal;
     margin:10px;
+    padding: 5px;
+    border-radius: 8px;
 }
 footer{
     display: flex;
@@ -190,7 +192,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px var(--blue);
 }
 
 input:checked + .slider:before {

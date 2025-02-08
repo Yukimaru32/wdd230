@@ -12,6 +12,7 @@ const navigation = document.querySelector("ul");
 const main = document.querySelector("#main");
 const button = document.getElementById("button");
 const display = document.getElementById("display");
+const home = document.querySelector(".goback");
 const footer = document.querySelector("footer");
 
 modeButton.addEventListener("click", ()=>{
@@ -20,6 +21,8 @@ modeButton.addEventListener("click", ()=>{
         navigation.style.background ="var(--blue)"
         main.style.background ="var(--black)"
         button.style.background ="var(--blue)"
+        home.style.color ="var(--white)"
+        home.style.background ="var(--red)"
         footer.style.background ="var(--dark)"
         display.textContent ="dark"
     } else{
@@ -27,6 +30,8 @@ modeButton.addEventListener("click", ()=>{
         navigation.style.background = "var(--dark)"
         main.style.background ="var(--white)"
         button.style.background ="var(--red)"
+        home.style.color = "var(--red)"
+        home.style.background ="var(--white)"
         footer.style.background ="var(--blue)"
         display.textContent ="normal"
     }
