@@ -194,4 +194,10 @@
     picture{
         margin: 10px auto;
     }
+    #temple{
+        color:white;
+        text-shadow:1px black;
+        position: absolute;
+        right:100px;
+    }
 }
