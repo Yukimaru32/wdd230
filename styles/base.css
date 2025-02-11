@@ -99,7 +99,7 @@
         
         max-width: 100%;
         display:grid;
-        grid-template-columns: 2fr ;
+        grid-template-columns: 1fr ;
         margin:2rem auto;
         gap:2rem;
         
@@ -170,7 +170,7 @@
     }
     header img{
         height: 100px;
-        width: 80px;
+        width: 71px;
     }
     h2{
         text-align: center;
@@ -185,8 +185,13 @@
     iframe{
         width: 80%;
         margin: 80px 150px;
-        height: 500px;
-        
-        
+        height: 500px;        
+    }
+    .hero img {
+        width: 800px;
+        height:500px;
+    }
+    picture{
+        margin: 10px auto;
     }
 }

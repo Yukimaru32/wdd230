@@ -57,8 +57,7 @@ h2{
 
 
 main{    
-    display:grid;
-    grid-template-columns: 2fr;   
+    display:block;
     gap: 1rem;
 
     
@@ -88,7 +87,6 @@ main .image{
     margin:10px;
     height:150px;
     border-radius: 8px;
-    
     position: relative;
 }
 
@@ -129,13 +127,13 @@ section nav {
     list-style-type: decimal-leading-zero;
 }
 img{
-    height: 100px;
-    width: 150px;
+    height: 66px;
+    width: 100px;
     margin: 10px;
 }
 header img{
     height: 100px;
-    width: 80px;
+    width: 71px;
 }
 h2{
     text-align: center;
@@ -200,7 +198,12 @@ div span{
 
 }
 iframe{
-    width: 380px;
-    height: 300px;
+    width: 95%;
+    height: 95%;
     margin: 10px;
+}
+.hero img {
+    width:  100%;
+    height: 62.5%;
+    margin: 0;
 }
