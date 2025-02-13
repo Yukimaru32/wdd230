@@ -195,9 +195,13 @@
         margin: 10px auto;
     }
     #temple{
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
         color:white;
-        text-shadow:1px black;
         position: absolute;
-        right:100px;
+        left: 430px;
+        bottom: 400px;
     }
 }
