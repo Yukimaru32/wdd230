@@ -207,3 +207,12 @@ iframe{
     height: 62.5%;
     margin: 0;
 }
+#temple{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color:white;
+    position: absolute;
+    left:150px;
+}
