@@ -11,6 +11,7 @@
     .titletop img{
         height: 100px;
         width: 133px;
+        padding: 0;
     }
     ul{
         list-style: none;

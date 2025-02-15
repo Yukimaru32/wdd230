@@ -33,21 +33,25 @@
         <div class="navigation">
             <nav>
                 <ul>
-                    <li><a href="#" >button</a></li>
-                    <li><a href="#" >button</a></li>
-                    <li><a href="#" >button</a></li>
-                    <li><a href="#" >button</a></li>
+                    <li><a class="buttons" href="#" >button</a></li>
+                    <li><a class="buttons" href="#" >button</a></li>
+                    <li><a class="buttons" href="#" >button</a></li>
+                    <li><a class="buttons" href="#" >button</a></li>
                 </ul>
             </nav>
         </div>       
     </header>
     <div id="display">normal</div>
     <main id ="main">
-            <img class ="hero" src="images/bigcite.webp" alt="bigscenary image">
-            <a id="button" href="#">Join Now</a>
+        <picture class="hero">
+            <source srcset="images/wdd230-org.wepb" media="(min-width: 800px)">
+            <source srcset="images/wdd230-org.webp">
+            <img src="images/wdd230-org.webp" alt="bigscenary image">
+        </picture>
+        <a id="button" href="#">Join Now</a>
         <section>
             <h2>Wheather</h2>
-            <p></p>
+            <p id="WindChill"></p>
         </section>
         <section>
             <h2>Job board</h2>
@@ -69,5 +73,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
