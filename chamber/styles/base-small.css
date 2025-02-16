@@ -44,11 +44,17 @@ main{
     background-color: var(--white);
 }
 section{
+    font-family: "Gothic A1", serif;
+    font-weight: 300;
+    font-style: normal;
     height: 150px;
     border: #3A3636 solid;
     border-radius: 8px;
     margin: 10px;
     background-color: var(--dark);
+}
+section p{
+    color: var(--white);
 }
 .goback{
     color: #C8210E;
@@ -85,9 +91,6 @@ footer img{
     padding:5px;
 }
 .hero{
-    height: 90%;
-    width: 90%;
-
     margin:10px auto;
 }
 .navigation li{
