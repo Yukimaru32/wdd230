@@ -10,7 +10,6 @@
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://yukimaru32.github.io/wdd230/chamber/images/chibanion.png"/>
     <meta property="og:url" content="https://yukimaru32.github.io/wdd230/chamber/index.html"/>
-
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base-small.css">
@@ -44,32 +43,61 @@
         </div>       
     </header>
     <div id="display">normal</div>
-    <main id ="main">
-        <picture class="hero">
-            <source srcset="images/org.webp" media="(max-width: 600px)" width=350>
-            <source srcset="images/orgmid.webp" media="(max-width: 1000px)" width="700">
-            <img src="images/org.webp" alt="bigscenary image"  width=800>
-        </picture>
-        <a id="button" href="#">Join Now</a>
-        <section>
-            <h2>Weather</h2>
-            <p id="temp"></p>
-            <p id="wind"></p>
-            <p id="WindChill"></p>
-        </section>
-        <section>
-            <h2>Job board</h2>
-            <p></p>
-        </section>
-        <section>
-            <h2>Upcoming Event</h2>
-            <p></p>
-        </section>
-        <section>
-            <h2>Location</h2>
-            <p></p>
-        </section>
-        <a class="goback" href="index.html">Go back to the top</a>
+    <main id="maincolumn">
+        <div class="leftcolumn">
+            <section>
+                <h2>About Chibanion</h2>
+            </section>
+            <section>
+                <h2>Event Info</h2>
+                <ul>
+                    <li><p>1/21: New Year Conference</p></li>
+                    <li><p>2/11: Birthday Event</p></li>
+                    <li><p>3/31: Easter Anniversary</p></li>
+                    <li><p>4/15: Tax Seminar</p></li>
+                    <li><p>5/20: Local Community Session</p></li>
+                    <li><p>6/25: Early Summer summit</p></li>
+                    <li><p>7/21: Summer Festival</p></li>
+                    <li><p>8/15: Peaceful Day</p></li>
+                    <li><p>11/21: Workers Society</p></li>
+                    <li><p>12/25: Christmas Festival</p></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Calender</h2>
+            </section>
+            <section>
+                <h2>Image Description</h2>
+                <ul>
+                    <li><P>1: Chiba Bay</P></li>
+                    <li><P>2: Mystery Cave</P></li>
+                    <li><P>3: ChibaForest Park</P></li>
+                    <li><P>4: Peanuts Market</P></li>
+                    <li><P>5: Chiba Tower</P></li>
+                    <li><P>6: Tokyo Germany Park</P></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Hiring Info</h2>
+                <p>Tax Asosciate: Toyota Production </p>
+                <p>English Teacher: Chiba High School</p>
+                <p>Nurse Assistance: Chiba Central Hospital</p>
+                <p>Software Engineering: Google Japanese Branch </p>
+                <p>Workshop Manager: Chiba University</p>
+            </section>
+            <section>
+                <h2>Number of Visits</h2>
+            </section>
+
+        </div>
+        <div class="rightcolumn">
+            <img src="images/beach.webp" loading="lazy" alt="beach image">
+            <img src="images/cave.webp" loading="lazy" alt="cave image">
+            <img src="images/parkcafe.webp" loading="lazy" alt="cafe image">
+            <img src="images/peanut.webp" loading="lazy" alt="peanut image">
+            <img src="images/tower.webp" loading="lazy" alt="tower image">
+            <img src="images/villege.webp" loading="lazy" alt="villege image">
+        </div>
     </main>
     <footer>
         <img src="images/chibanion.webp" alt="logo">
