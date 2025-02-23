@@ -189,4 +189,22 @@
         grid-template-columns: 1fr 1fr;
         text-align: left;
     }
+    #chibanion p{
+        line-height: 30px;
+        margin: 10px;
+        text-align: left;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        color: var(--white);
+        border: 1px solid var(--white);
+        padding: 10px;
+    }
+    th {
+        background-color: var(--blue);
+    }
 }
