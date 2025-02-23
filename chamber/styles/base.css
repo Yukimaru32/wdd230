@@ -182,12 +182,19 @@
     }
     .leftcolumn section{
         height: 400px;
-        width: 80%;
+        width: 100%;
     }
     .leftcolumn ul{
+        font-size: 15px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         text-align: left;
+    }
+    .leftcolumn p{
+        font-size: 15px;
+    }
+    #calender{
+        height:400px;
     }
     #chibanion p{
         line-height: 30px;
@@ -203,6 +210,7 @@
         color: var(--white);
         border: 1px solid var(--white);
         padding: 10px;
+        font-size: 15px;
     }
     th {
         background-color: var(--blue);
