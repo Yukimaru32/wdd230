@@ -44,6 +44,11 @@
         background-color:var(--blue);
         border-radius: 8px;
     }
+    .navigation nav a:hover{
+        color: var(--blue);
+        background-color: var(--white);
+    }
+    
     .hero{
         grid-column: 1/3;
         margin:10px auto;
