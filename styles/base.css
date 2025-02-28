@@ -104,8 +104,11 @@
         
         
     }
-    .country{
+    .country,
+    .numvisits{
         display: flex;
+        justify-content: center;
+        text-align: center;
     }
     .card{
         border-radius: 10px;
@@ -144,6 +147,7 @@
         font-weight: 400;
         font-style: normal;
         margin: 50px;
+        font-size: 16px;
     }
     section{
         max-width: 1800px;
