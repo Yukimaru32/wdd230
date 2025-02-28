@@ -1,3 +1,7 @@
+:root{
+    --green:  #28a745;
+    --dgreen: #218838;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -60,12 +64,12 @@ input[type="range"] {
 }
 
 button {
-    background-color: #28a745;
+    background-color: var(--green);
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: var(--dgreen);
 }
