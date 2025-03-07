@@ -104,6 +104,16 @@
         
         
     }
+    .links{
+        display: flex;
+        
+    }
+    section ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
     .country,
     .numvisits{
         display: flex;
@@ -164,7 +174,7 @@
         margin: 20px;
         font-style: normal;
         color: white;
-        list-style-type: decimal-leading-zero;
+        list-style: none;
     }
     img{
         height: 100px;
@@ -206,5 +216,12 @@
         position: absolute;
         left: 370px;
         bottom: 400px;
+    }
+    .links h4{
+        color: white;
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 10px;
     }
 }

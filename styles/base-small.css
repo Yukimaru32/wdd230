@@ -129,7 +129,7 @@ section nav {
     margin: 20px;
     font-style: normal;
     color: white;
-    list-style-type: decimal-leading-zero;
+    list-style-type: none;
 }
 img{
     height: 66px;

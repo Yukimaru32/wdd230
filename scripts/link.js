@@ -14,9 +14,10 @@ const displayLinks = (lessons) => {
     lessons.forEach(lesson => {
         // Create elements for each lesson
         let section = document.createElement("section");
-        let heading = document.createElement("h2");
-        heading.textContent = `Lesson ${lesson.lesson}`; // Add lesson number as heading
+        let heading = document.createElement("h4");
+        heading.textContent = `Lesson ${lesson.lesson}:`; // Add lesson number as heading
         section.appendChild(heading);
+        section.setAttribute("class","links");
         
         let ul = document.createElement("ul");
 
