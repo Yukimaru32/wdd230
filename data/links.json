@@ -1,0 +1,132 @@
+{
+    "lessons": [
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson02/favicon.html",
+                    "title": "Favicon"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson02/social-media-meta.html",
+                    "title": "Social Media Meta tags"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson02/normalize.html",
+                    "title": "CSS Normalize and Reset"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson02/design-principles.html",
+                    "title": "Web Design Principles"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson02/media-queries.html",
+                    "title": "CSS Media Queries"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson03/combinators.html",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson03/specificity.html",
+                    "title": "CSS Specificity"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson03/pseudo-elements.html",
+                    "title": "CSS Pseudo-Elements"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson03/responsive-menu.html",
+                    "title": "Responsive Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson04/pseudo-classes.html",
+                    "title": "CSS Pseudo-classes"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson04/css-common.html",
+                    "title": "CSS Common Interview Questions"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson04/ux-page-load-speed.html",
+                    "title": "Performance: Page Load"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson05/position.html",
+                    "title": "CSS Position"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson05/dom-manipulation.html",
+                    "title": "DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson06/webp.html",
+                    "title": "WebP Image Format"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson07/lazyload.html",
+                    "title": "Native Lazy Loading of Images"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson07/localStorage.html",
+                    "title": "JS localStorage"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson08/tables.html",
+                    "title": "HTML Tables"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson08/forms.html",
+                    "title": "HTML Forms"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson09/json.html",
+                    "title":"JavaScript Object Notation (JSON)"
+                },
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson09/fetch.html",
+                    "title": "Fetch"
+                }
+            ]
+        }
+    ]
+}
