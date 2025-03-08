@@ -338,3 +338,21 @@ button{
 .membership-benefits{
     display:none;
 }
+#directory-list{
+    color: var(--white);
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(340px,1fr));
+}
+#directory-list section{
+    height: auto;
+}
+#directory-list img{
+    background-color: var(--white);
+    margin: 10px;
+}
+#directory-list h4,
+#directory-list p{
+    padding: 5px;
+}
+
+
