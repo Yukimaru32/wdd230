@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Amazon",
+        "address": "410 Terry Avenue North, Seattle, WA 98109, USA",
+        "phone": "+1 206-266-1000",
+        "url": "https://www.amazon.com",
+        "image": "https://cdn.iconscout.com/icon/free/png-512/free-amazon-logo-icon-download-in-svg-png-gif-file-formats--brand-social-media-card-pack-logos-icons-1583154.png?f=webp&w=512",
+        "membership": "Gold",
+        "industry": "E-commerce, Cloud Computing, Artificial Intelligence"
+      },
+      {
+        "name": "Google",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+        "phone": "+1 650-253-0000",
+        "url": "https://www.google.com",
+        "image": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png",
+        "membership": "Silver",
+        "industry": "Technology, Internet Services, Advertising"
+      },
+      {
+        "name": "Facebook",
+        "address": "1 Hacker Way, Menlo Park, CA 94025, USA",
+        "phone": "+1 650-543-4800",
+        "url": "https://www.facebook.com",
+        "image": "https://www.iconfinder.com/icons/5365678/fb_facebook_facebook_logo_icon",
+        "membership": "Bronze",
+        "industry": "Social Media, Technology"
+      },
+      {
+        "name": "PwC",
+        "address": "300 Madison Avenue, New York, NY 10017, USA",
+        "phone": "+1 646-471-4000",
+        "url": "https://www.pwc.com",
+        "image": "https://logos-world.net/wp-content/uploads/2022/01/PwC-PricewaterhouseCoopers-Logo.png",
+        "membership": "Gold",
+        "industry": "Professional Services, Accounting"
+      },
+      {
+        "name": "Deloitte",
+        "address": "30 Rockefeller Plaza, New York, NY 10112, USA",
+        "phone": "+1 212-492-4000",
+        "url": "https://www2.deloitte.com",
+        "image": "https://logos-world.net/wp-content/uploads/2021/08/Deloitte-Logo.png",
+        "membership": "Silver",
+        "industry": "Professional Services, Consulting"
+      },
+      {
+        "name": "EY",
+        "address": "6 More London Place, London SE1 2DA, United Kingdom",
+        "phone": "+44 20 7951 2000",
+        "url": "https://www.ey.com",
+        "image": "https://cdn.iconscout.com/icon/free/png-512/free-ernst-icon-download-in-svg-png-gif-file-formats--young-ey-logo-world-brand-logos-vol-1-pack-icons-282248.png?f=webp&w=512",
+        "membership": "Bronze",
+        "industry": "Professional Services, Accounting"
+      },
+      {
+        "name": "KPMG",
+        "address": "15 Canada Square, London E14 5GL, United Kingdom",
+        "phone": "+44 20 7311 1000",
+        "url": "https://home.kpmg",
+        "image": "https://cdn.iconscout.com/icon/free/png-512/free-kpmg-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-15-pack-icons-285150.png?f=webp&w=512",
+        "membership": "NP",
+        "industry": "Professional Services, Accounting"
+      }
+    ]
+  }
+  
