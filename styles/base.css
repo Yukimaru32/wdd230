@@ -224,4 +224,11 @@
         font-style: normal;
         padding: 10px;
     }
+    #weather-icon{
+        width: 100px;
+        height: 100px;
+    }
+    figcaption{
+        font-size: 14px;
+    }
 }
