@@ -52,18 +52,27 @@
             <img src="images/org.webp" alt="bigscenary image"  width=800>
         </picture>
         <a id="button" href="join.html">Join Now</a>
-        <section>
+        <section id="weather">
             <h2>Weather</h2>
-            <p id="temp"></p>
-            <p id="wind"></p>
-            <p id="WindChill"></p>
+            <div>
+                <p id="temp"></p>
+                <p id="wind"></p>
+                <p id="WindChill"></p>
+                <p><span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
         </section>
         <section>
             <h2>Job board</h2>
             <p></p>
         </section>
         <section>
-            <h2>Upcoming Event</h2>
+            <h2>Weather Forecast</h2>
+            <div id="weather-forecast">
+            </div>
             <p></p>
         </section>
         <section>
@@ -79,5 +88,6 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </body>
 </html>
