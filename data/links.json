@@ -123,9 +123,19 @@
                     "title":"JavaScript Object Notation (JSON)"
                 },
                 {
-                    "url": "https://byui-cse.github.io/wdd230-course/lesson09/fetch.html",
+                    "url": "https://yukimaru32.github.io/wdd230/lesson09/prophets.html",
                     "title": "Fetch"
                 }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "https://byui-cse.github.io/wdd230-course/lesson10/api-weather.html",
+                    "title":"API: Weather Information"
+                }
+
             ]
         }
     ]
