@@ -355,4 +355,33 @@ button{
     padding: 5px;
 }
 
+.hover-normal:hover {
+    background: var(--white);
+    color: var(--red);
+}
 
+
+.hover-dark{
+    background-color: var(--dark);
+}
+.hover-dark:hover {
+    background: var(--white);
+    color: var(--red);
+}
+
+#weather-forecast{
+    display:flex;
+    justify-content: space-between;
+}
+
+iframe{
+    height: 100px;
+    width: 250px;
+}
+
+p{
+    font-size: small;
+}
+h4{
+    color: var(--white);
+}
