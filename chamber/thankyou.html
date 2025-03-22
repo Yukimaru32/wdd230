@@ -36,26 +36,30 @@
         <div class="navigation">
             <nav>
                 <ul>
-                    <li><a class="buttons" href="index.html" >Home</a></li>
-                    <li><a class="buttons" href="#" >button</a></li>
-                    <li><a class="buttons" href="#" >button</a></li>
-                    <li><a class="buttons" href="#" >button</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="index.html" >Home</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="discover.html" >Discover</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="#" >button</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="join.html" >Register</a></li>
                 </ul>
             </nav>
         </div>       
     </header>
     <div id="display">normal</div>
     <main id="thankyou">
-        <h1>Thank You!</h1>
+        <h1 id="message">Thank You!</h1>
         <p>Your form has been successfully submitted.</p>
-        <p><a href="join.html">Go back to the form</a></p>
-        <p><a href="index.html">Go back to Home</a></p>
+        <nav class ="direct">
+            <ul>
+                <li><a class="hover-normal" class="buttons" href="join.html">Go back to the form</a></li>
+                <li><a class="hover-normal" class="buttons" href="index.html">Go back to Home</a></li>
+            </ul>
+        </nav>
     </main>
     <footer>
         <img src="images/chibanion.webp" alt="logo">
         <p>&copy;<span id="currentyear"></span> Yuki Ikeda | WDD230 | &#x1f38d;Japan&#x1f38d; | <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/menu.js"></script>
+    <script src="scripts/thankyou.js"></script>
 </body>
 </html>

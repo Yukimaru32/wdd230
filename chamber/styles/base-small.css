@@ -47,7 +47,7 @@ section{
     font-family: "Gothic A1", serif;
     font-weight: 300;
     font-style: normal;
-    height: 150px;
+    height: 200px;
     border: #3A3636 solid;
     border-radius: 8px;
     margin: 10px;
@@ -331,10 +331,16 @@ button{
 }
 #thankyou {
     display: block;
+    margin: 0;
 }
-#thankyou h1{
+#thankyou h1,
+#thankyou p{
     color: var(--black);
+    padding: 15px;
+    margin: 0;
 }
+
+
 .membership-benefits{
     display:none;
 }
@@ -383,5 +389,8 @@ p{
     font-size: small;
 }
 h4{
+    color: var(--white);
+}
+figcaption{
     color: var(--white);
 }

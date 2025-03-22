@@ -49,16 +49,15 @@
         <picture class="hero">
             <source srcset="images/org.webp" media="(max-width: 600px)" width=350>
             <source srcset="images/orgmid.webp" media="(max-width: 1000px)" width="700">
-            <img src="images/org.webp" alt="bigscenary image"  width=800>
+            <img src="images/bigcite.webp" alt="bigscenary image"  width=800>
         </picture>
         <a id="button" href="join.html">Join Now</a>
         <section id="weather">
             <h2>Weather</h2>
             <div>
-                <p id="temp"></p>
+                <p><span id="current-temp"></span></p>
                 <p id="wind"></p>
                 <p id="WindChill"></p>
-                <p><span id="current-temp"></span></p>
                 <figure>
                     <img id="weather-icon" src="" alt="">
                     <figcaption></figcaption>
@@ -91,7 +90,6 @@
     </footer>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/menu.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
     <script src="scripts/weather.js" defer></script>
 </body>
 </html>
