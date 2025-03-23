@@ -214,4 +214,11 @@
     th {
         background-color: var(--blue);
     }
+    .direct{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        padding: 20px;
+    }
 }

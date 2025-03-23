@@ -395,7 +395,7 @@ figcaption{
     color: var(--white);
 }
 .direct{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: small;
