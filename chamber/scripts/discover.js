@@ -13,6 +13,7 @@ const main = document.querySelector("main");
 const buttons =document.querySelectorAll(".buttons");
 const display = document.getElementById("display");
 const footer = document.querySelector("footer");
+const figcaps = document.querySelectorAll("figcaption");
 
 modeButton.addEventListener("click", ()=>{
     if(display.textContent.includes("normal")){
@@ -24,6 +25,9 @@ modeButton.addEventListener("click", ()=>{
         });
         footer.style.background ="var(--dark)"
         display.textContent ="dark"
+        figcaps.forEach(figcap =>{
+            figcap.style.color ="var(--white)";
+        })
     } else{
         title.style.background ="var(--blue)"
         navigation.style.background = "var(--dark)"
@@ -33,6 +37,9 @@ modeButton.addEventListener("click", ()=>{
         });
         footer.style.background ="var(--blue)"
         display.textContent ="normal"
+        figcaps.forEach(figcap =>{
+            figcap.style.color ="var(--black)";
+        })
     }
     
 });

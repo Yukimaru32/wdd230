@@ -435,4 +435,7 @@ section a{
 #directory-list.list-view img{
     display: none;
 }
+.rightcolumn figcaption{
+    color: var(--black);
+}
 
