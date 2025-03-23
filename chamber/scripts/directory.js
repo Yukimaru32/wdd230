@@ -48,3 +48,67 @@ const displayLinks = (members) => {
         container.appendChild(section); // Append the section to the container
     });
 }
+
+function switchView(viewType) {
+    const container = document.getElementById("directory-list");
+    if (viewType === "list") {
+        container.classList.add("list-view");
+        container.classList.remove("grid-view");
+    } else if (viewType === "grid") {
+        container.classList.add("grid-view");
+        container.classList.remove("list-view");
+    }
+}
+
+// Attach event listeners to the navigation links
+document.getElementById("grid").addEventListener("click", (e) => {
+    e.preventDefault();
+    switchView("grid");
+});
+
+document.getElementById("list").addEventListener("click", (e) => {
+    e.preventDefault();
+    switchView("list");
+});
+
+const mainnav = document.querySelector(".navigation");
+const menubutton = document.querySelector("#menu");
+
+menubutton.addEventListener("click",() =>{
+    mainnav.classList.toggle("show");
+    menubutton.classList.toggle("show");
+});
+
+const modeButton = document.querySelector("input");
+const title = document.querySelector(".titletop");
+const navigation = document.querySelector("ul");
+const main = document.querySelector("main");
+const buttons =document.querySelectorAll(".buttons");
+const display = document.getElementById("display");
+const footer = document.querySelector("footer");
+
+modeButton.addEventListener("click", ()=>{
+    if(display.textContent.includes("normal")){
+        title.style.background ="var(--dark)";
+        navigation.style.background ="var(--blue)";
+        main.style.background ="var(--black)";
+        buttons.forEach(btn =>{
+            btn.classList.remove("hover-normal");
+            btn.classList.add("hover-dark");
+        });
+
+        footer.style.background ="var(--dark)";
+        display.textContent ="dark";
+    } else{
+        title.style.background ="var(--blue)";
+        navigation.style.background = "var(--dark)";
+        main.style.background ="var(--white)";
+        buttons.forEach(btn =>{
+            btn.classList.remove("hover-dark");
+            btn.classList.add("hover-normal");
+        });
+        footer.style.background ="var(--blue)";
+        display.textContent ="normal";
+    }
+    
+});
