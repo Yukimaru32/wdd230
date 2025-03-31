@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuki Ikeda">
+    <meta name="description" content="WDD230 Chamber of Commerce Join This is a join website for Chamber project.">
+    <meta property="og:title" content="Chibanion Chamber of Commerce Join">
+    <meta property="og: description" content="This is a Join page for Chamber of Commerce website.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yukimaru32.github.io/wdd230/chamber/images/chibanion.png">
+    <meta property="og:url" content="https://yukimaru32.github.io/wdd230/chamber/index.html">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/base-mid.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Heebo&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>WDD230 Chamber of Commerce Join</title>
+</head>
+<body>
+    <header>
+        <div class="titletop">
+            <a href="index.html"><img src="images/chibanion.webp" alt ="icon"></a>
+            <h1>Chibanion Chamber of Commerce</h1>
+            <a id="menu" href="#"></a>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a class="hover-normal" class="buttons"  href="index.html" >Home</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="discover.html" >Discover</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="directory.html" >Member</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="join.html" >Register</a></li>
+                </ul>
+            </nav>
+        </div>       
+    </header>
+    <div id="display">normal</div>
+    <main id="registration">
+        <h2 id="register">Registration Form</h2>
+        <form action="thankyou.html" method="get">
+            <label>
+                First Name:
+                <input type="text" name="first_name" id="first_name" required>
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="last_name" id="last_name" required>
+            </label>
+            
+            <label>
+                Title/Position:
+                <input type="text" name="title" id="title" required pattern="^[A-Za-z\-\s]{7,}$">
+            </label>
+            
+            <label>
+                Email:
+                <input type="email" name="email" id="email" required placeholder="example@domain.com">
+            </label>
+            
+            <label>
+                Mobile Phone:
+                <input type="tel" name="mobile" id="mobile" required>
+            </label>
+            
+            <label>
+                Business/Organization Name:
+                <input type="text" name="organization" id="organization" required>
+            </label>
+            
+            <label>
+                Membership Level:
+                <select name="membership_level" id="membership_level" required>
+                    <option value="" selected disabled>Select Membership</option>
+                    <option value="np">NP Membership (No Fee)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            
+            <label>Business/Organization Description:
+                <textarea name="description" id="description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <aside class="membership-benefits">
+                <h3>Membership Benefits</h3>
+                <div id="benefit-details">
+                    <p>Select a membership level to see the benefits.</p>
+                </div>
+            </aside>
+            <button type="submit" id="submit" name="submit">Submit Application</button>
+        </form>
+    </main>
+    <footer>
+        <img src="images/chibanion.webp" alt="logo">
+        <p>&copy;<span id="currentyear"></span> Yuki Ikeda | WDD230 | &#x1f38d;Japan&#x1f38d; | <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</body>
+</html>

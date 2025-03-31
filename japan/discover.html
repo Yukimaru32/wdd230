@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuki Ikeda">
+    <meta name="description" content="WDD230 Chamber of Commerce This is a website for Chamber project.">
+    <meta property="og:title" content="Chibanion Chamber of Commerce">
+    <meta property="og: description" content="This is a Website for Chamber of Commerce Discover page.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yukimaru32.github.io/wdd230/chamber/images/chibanion.webp">
+    <meta property="og:url" content="https://yukimaru32.github.io/wdd230/chamber/discover.html">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/base-mid.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Heebo&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>WDD230 Chamber of Commerce Discover</title>
+</head>
+<body>
+    <header>
+        <div class="titletop">
+            <a href="index.html"><img src="images/chibanion.webp" alt ="icon"></a>
+            <h1>Chibanion Chamber of Commerce</h1>
+            <a id="menu" href="#"></a>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a class="hover-normal" class="buttons"  href="index.html" >Home</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="discover.html" >Discover</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="directory.html" >Member</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="join.html" >Register</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </header>
+    
+    <div id="display">normal</div>
+    <main id="maincolumn">
+        <div class="leftcolumn">
+            <section id="chibanion">
+                <h2>About Chibanion</h2>
+                <p>Chibanion is a local chamber of commerce Whose office locates in Chiba Prefecture, Japan. Our ultimate goal is to provide allocative opportunities
+                    for those who need a job, community, and connection with others through this website and activities. We have sufficient information about local job,
+                    monthly events, and some special events and community session sometimes. We hope people in our local can get great experience for living here, and feel 
+                    content by using our services.
+                </p>
+            </section>
+            <section>
+                <h2>Event Info</h2>
+                <ul>
+                    <li><p>1/21: New Year Conference</p></li>
+                    <li><p>2/11: Birthday Event</p></li>
+                    <li><p>3/31: Easter Anniversary</p></li>
+                    <li><p>4/15: Tax Seminar</p></li>
+                    <li><p>5/20: Local Community Session</p></li>
+                    <li><p>6/25: Early Summer summit</p></li>
+                    <li><p>7/21: Summer Festival</p></li>
+                    <li><p>8/15: Peaceful Day</p></li>
+                    <li><p>11/21: Workers Society</p></li>
+                    <li><p>12/25: Christmas Festival</p></li>
+                </ul>
+            </section>
+            <section id="calender">
+                <h2>Calender</h2>
+                <h2>February 2025</h2>
+                <table>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+                    </tr>
+                    <tr>
+                        <td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+                    </tr>
+                    <tr>
+                        <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Image Description</h2>
+                <ul>
+                    <li><P>1: Chiba Bay</P></li>
+                    <li><P>2: Mystery Cave</P></li>
+                    <li><P>3: ChibaForest Park</P></li>
+                    <li><P>4: Peanuts Market</P></li>
+                    <li><P>5: Chiba Tower</P></li>
+                    <li><P>6: Tokyo Germany Park</P></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Hiring Info</h2>
+                <p>Tax Asosciate: Toyota Production </p>
+                <p>English Teacher: Chiba High School</p>
+                <p>Nurse Assistance: Chiba Central Hospital</p>
+                <p>Software Engineering: Google Japanese Branch </p>
+                <p>Workshop Manager: Chiba University</p>
+            </section>
+            <section>
+                <h2>Number of Visits</h2>
+                <p id="visit"></p>
+            </section>
+
+        </div>
+        <div class="rightcolumn">
+            <figure>
+                <img src="images/beach.webp" loading="lazy" alt="beach image">
+                <figcaption>1: Chiba Beach</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cave.webp" loading="lazy" alt="cave image">
+                <figcaption>2: Chiba Cave</figcaption>
+            </figure>
+            <figure>
+                <img src="images/parkcafe.webp" loading="lazy" alt="cafe image">
+                <figcaption>3: Chiba Park Cafe</figcaption>
+            </figure>
+            <figure>
+                <img src="images/peanut.webp" loading="lazy" alt="peanut image">
+                <figcaption>4: Chiba Peanuts Museum</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tower.webp" loading="lazy" alt="tower image">
+                <figcaption>5: Chiba Tower</figcaption>
+            </figure>
+            <figure>
+                <img src="images/villege.webp" loading="lazy" alt="villege image">
+                <figcaption>6: Tokyo Germany Villege</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <img src="images/chibanion.webp" alt="logo">
+        <p>&copy;<span id="currentyear"></span> Yuki Ikeda | WDD230 | &#x1f38d;Japan&#x1f38d; | <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
+    <script src="scripts/visit.js" defer></script>
+</body>
+</html>

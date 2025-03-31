@@ -1,0 +1,224 @@
+@media screen and (min-width:500px){
+    h1{
+        font-size: 30px;
+    }
+    .titletop {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        height: 100px;
+    }
+    .titletop img{
+        height: 100px;
+        width: 133px;
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--dark);
+        padding: 30px;
+        margin: 0;
+        
+    }
+    h1{
+        margin: 20px auto;
+        color:var(--white);
+    }
+    h2{
+        font-size: medium;
+    }
+    header{
+        display: block;
+        text-align: center;
+        background-color: var(--blue);
+    }
+    
+    .navigation nav a{
+        font-size: 24px;
+        padding: 20px;
+        margin: 15px ;
+        color: var(--white);
+        background-color:var(--blue);
+        border-radius: 8px;
+    }
+    .hero{
+        grid-column: 1/3;
+        margin:10px auto;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap:1rem;
+        text-align: center;
+    }
+    #button{
+        grid-column: 1/3;
+        font-size: 30px;
+        color: var(--white);
+        background-color: var(--red);
+        padding: 20px;
+        width: 200px;
+        margin: 10px auto;
+        border-radius: 8px;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+        color:var(--white);
+        background-color: var(--blue);
+        padding: 20px;
+        margin: 0;
+        font-size: 18px;
+        justify-content: center;
+    }
+    footer img{
+        height: 50px;
+        width: 66.5px;
+        margin:5px;
+        border-radius: 20px;
+    }
+    section{
+        height: 300px;
+        border: #3A3636 solid;
+        border-radius: 8px;
+        margin: 20px;
+        background-color: var(--dark);
+    }
+    .goback{
+        width: 200px;
+        grid-column: 1/3;
+        color: #C8210E;
+        font-size: 20px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+    .navigation ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation li{
+        display: block;
+        margin: 0;
+
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        margin: 10px;
+      }
+      
+      /* Hide default HTML checkbox */
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      /* The slider */
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+      }
+      
+      input:checked + .slider {
+        background-color: var(--dark);
+      }
+      
+      input:focus + .slider {
+        box-shadow: 0 0 1px var(--blue);
+      }
+      
+      input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+      }
+      
+      /* Rounded sliders */
+      .slider.round {
+        border-radius: 34px;
+      }
+      
+      .slider.round:before {
+        border-radius: 50%;
+      }
+      .rightcolumn img{
+        width:90%;
+        height: 200px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+    .leftcolumn section{
+        height: 200px;
+        width: 80%;
+    }
+    .leftcolumn ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+        padding: 0px;
+        font-size: 10px;
+    }
+    .leftcolumn p{
+        font-size: 10px;
+    }
+    .maincolumn p{
+        line-height: 10px;
+    }
+    #chibanion p{
+        line-height: 15px;
+        margin: 10px;
+        text-align: left;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        color: var(--white);
+        border: 1px solid var(--white);
+        padding: 10px;
+        font-size: x-small;
+    }
+    th {
+        background-color: var(--blue);
+    }
+    .direct{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        padding: 20px;
+    }
+}

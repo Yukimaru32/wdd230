@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuki Ikeda">
+    <meta name="description" content="WDD230 Chamber of Commerce This is a website for Chamber project.">
+    <meta property="og:title" content="Chibanion Chamber of Commerce">
+    <meta property="og: description" content="This is a Website for Chamber of Commerce page.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yukimaru32.github.io/wdd230/chamber/images/chibanion.png">
+    <meta property="og:url" content="https://yukimaru32.github.io/wdd230/chamber/index.html">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base-small.css">
+    <link rel="stylesheet" href="styles/base-mid.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Heebo&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>WDD230 Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="titletop">
+            <a href="japan.html"><img src="images/japanflag.webp" alt ="icon"></a>
+            <h1>Portfolio: Japanese Food</h1>
+            <a id="menu" href="#"></a>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a class="hover-normal" class="buttons"  href="japan.html" >Home</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="discover.html" >Discover</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="#" >History</a></li>
+                    <li><a class="hover-normal" class="buttons"  href="#" >Culture</a></li>
+                </ul>
+            </nav>
+        </div>       
+    </header>
+    <div id="display">normal</div>
+    <main id ="main">
+        <picture class="hero">
+            <source srcset="images/org.webp" media="(max-width: 600px)" width=350>
+            <source srcset="images/orgmid.webp" media="(max-width: 1000px)" width="700">
+            <img src="images/org.webp" alt="bigscenary image"  width=800>
+        </picture>
+        <a id="button" href="join.html">Join Now</a>
+        <section id="weather">
+            <h2>Weather</h2>
+            <div>
+                <p id="temp"></p>
+                <p id="wind"></p>
+                <p id="WindChill"></p>
+                <p><span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Job board</h2>
+            <p></p>
+        </section>
+        <section>
+            <h2>Weather Forecast</h2>
+            <div id="weather-forecast">
+            </div>
+            <p></p>
+        </section>
+        <section>
+            <h2>Number of visit</h2>
+            
+        </section>
+        <a class="goback" href="japan.html">Go back to the top</a>
+    </main>
+    <footer>
+        <img src="images/japanflag.webp" alt="logo">
+        <p>&copy;<span id="currentyear"></span> Yuki Ikeda | ENG150 | &#x1f38d;Japan&#x1f38d; | <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+</body>
+</html>
