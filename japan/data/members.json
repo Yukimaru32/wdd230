@@ -8,45 +8,45 @@
       "category": "fish"
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Tonkotsu_ramen_in_fukuoka.jpg/1200px-Tonkotsu_ramen_in_fukuoka.jpg",
-      "name": "Ramen",
+      "image": "https://i2.wp.com/ramenkaonashi.com/wp-content/uploads/2020/10/DSC_1477-01-1-scaled.jpeg?resize=678%2C381&ssl=1",
+      "name": "Tonkotsu-Ramen",
       "location": "Fukuoka, Japan",
-      "url": "https://www.justonecookbook.com/tonkotsu-ramen/",
+      "url": "https://ramenkaonashi.com/how-to-make-hakata-tonkotsu-ramen/",
       "category": "popular"
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tempura_%28cropped%29.jpg/1200px-Tempura_%28cropped%29.jpg",
+      "image": "https://www.justonecookbook.com/wp-content/uploads/2020/03/Shrimp-Tempura-3138-I.jpg",
       "name": "Tempura",
       "location": "Tokyo, Japan",
-      "url": "https://www.justonecookbook.com/tempura/",
+      "url": "https://www.justonecookbook.com/tempura-recipe/",
       "category": "classic"
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Takoyaki_in_Osaka.jpg/1200px-Takoyaki_in_Osaka.jpg",
+      "image": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2012/07/takoyaki-recipe-4764.webp",
       "name": "Takoyaki",
       "location": "Osaka, Japan",
-      "url": "https://www.justonecookbook.com/takoyaki/",
+      "url": "https://iamafoodblog.com/takoyaki-recipe/",
       "category": "local"
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Okonomiyaki_in_Osaka.jpg/1200px-Okonomiyaki_in_Osaka.jpg",
+      "image": "https://www.justonecookbook.com/wp-content/uploads/2024/02/Okonomiyaki-5888-I.jpg",
       "name": "Okonomiyaki",
       "location": "Osaka, Japan",
       "url": "https://www.justonecookbook.com/okonomiyaki/",
       "category": "pork"
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Soba_noodle.jpg/1200px-Soba_noodle.jpg",
+      "image": "https://www.seriouseats.com/thmb/aUWsOISQiOslIAeX0iSob0WH5LE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cold-soba-recipe-hero-290164d6d6114f338d513eb6da032ae8.jpg",
       "name": "Soba",
       "location": "Nagano, Japan",
-      "url": "https://www.justonecookbook.com/soba-noodle-recipe/",
+      "url": "https://www.seriouseats.com/classic-cold-soba-recipe",
       "category": "classic"
     },
     {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Miso_soup.jpg/1200px-Miso_soup.jpg",
+      "image": "https://www.justonecookbook.com/wp-content/uploads/2022/06/Miso-Soup-8297-I.jpg",
       "name": "Miso Soup",
       "location": "Kyoto, Japan",
-      "url": "https://www.justonecookbook.com/miso-soup/",
+      "url": "https://www.justonecookbook.com/homemade-miso-soup/",
       "category": "classic"
     }
   ]
