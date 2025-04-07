@@ -1,54 +1,51 @@
-const directoryURL ="https://yukimaru32.github.io/wdd230/chamber/data/members.json";
+const directoryURL = "https://yukimaru32.github.io/wdd230/japan/data/members.json";
 
 async function getLinks() {
     const response = await fetch(directoryURL);
     const data = await response.json();
-    displayLinks(data.members); // Now passing the lessons array
+    displayLinks(data.members); // Passing the members array
 }
 getLinks();
 
 const displayLinks = (members) => {
-    const container = document.getElementById("directory-list"); // Make sure you have an element with this id in your HTML
+    const container = document.getElementById("directory-list"); // Ensure you have an element with this id in your HTML
 
     members.forEach(member => {
-        // Create elements for each lesson
+        // Create elements for each member
         let section = document.createElement("section");
-        let heading = document.createElement("h4");
-        let adress = document. createElement("p");
-        let phone = document. createElement("p");
-        let industry = document. createElement("p");
-        let url = document.createElement("a");
-        let urlcontainer = document.createElement("p");
         let image = document.createElement("img");
+        let heading = document.createElement("h4");
+        let locationEl = document.createElement("p");
+        let categoryEl = document.createElement("p");
+        let urlEl = document.createElement("a");
+        let urlContainer = document.createElement("p");
 
-        heading.textContent = `${member.name}`; // Add lesson number as heading
-        adress.textContent =`${member.address}`;
-        phone.textContent =`${member.phone}`;
-        industry.textContent =`${member.industry}`;
-        url.textContent =`${member.url}`;
+        // Set the content for each element using the new JSON keys
+        heading.textContent = member.name;
+        locationEl.textContent = member.location;
+        categoryEl.textContent = member.category;
+        urlEl.textContent = member.url;
+        urlEl.setAttribute("href", member.url);
 
-        url.setAttribute("href",member.url);
-        image.setAttribute("src",member.image);
-        image.setAttribute("loading","lazy");
-        image.setAttribute("alt",`Image of ${member.name}`);
-        image.setAttribute("width","200px");
-        image.setAttribute("height","150px");
+        image.setAttribute("src", member.image);
+        image.setAttribute("loading", "lazy");
+        image.setAttribute("alt", `Image of ${member.name}`);
+        image.setAttribute("width", "200px");
+        image.setAttribute("height", "150px");
 
-
-
+        // Append elements in the desired order: image first, then name, location, category, and finally the URL
         section.appendChild(image);
         section.appendChild(heading);
-        section.appendChild(adress);
-        section.appendChild(phone);
-        urlcontainer.appendChild(url);
-        section.appendChild(urlcontainer);
-        section.appendChild(industry);
+        section.appendChild(locationEl);
+        section.appendChild(categoryEl);
+        urlContainer.appendChild(urlEl);
+        section.appendChild(urlContainer);
 
-        
-        container.appendChild(section); // Append the section to the container
+        container.appendChild(section);
     });
-}
+};
 
+// Switch view function remains unchanged
 function switchView(viewType) {
     const container = document.getElementById("directory-list");
     if (viewType === "list") {
@@ -60,7 +57,7 @@ function switchView(viewType) {
     }
 }
 
-// Attach event listeners to the navigation links
+// Attach event listeners to the view toggle links
 document.getElementById("grid").addEventListener("click", (e) => {
     e.preventDefault();
     switchView("grid");
@@ -71,44 +68,44 @@ document.getElementById("list").addEventListener("click", (e) => {
     switchView("list");
 });
 
+// Mobile menu toggle
 const mainnav = document.querySelector(".navigation");
 const menubutton = document.querySelector("#menu");
 
-menubutton.addEventListener("click",() =>{
+menubutton.addEventListener("click", () => {
     mainnav.classList.toggle("show");
     menubutton.classList.toggle("show");
 });
 
+// Dark mode toggle code
 const modeButton = document.querySelector("input");
 const title = document.querySelector(".titletop");
 const navigation = document.querySelector("ul");
 const main = document.querySelector("main");
-const buttons =document.querySelectorAll(".buttons");
+const buttons = document.querySelectorAll(".buttons");
 const display = document.getElementById("display");
 const footer = document.querySelector("footer");
 
-modeButton.addEventListener("click", ()=>{
-    if(display.textContent.includes("normal")){
-        title.style.background ="var(--dark)";
-        navigation.style.background ="var(--blue)";
-        main.style.background ="var(--black)";
-        buttons.forEach(btn =>{
+modeButton.addEventListener("click", () => {
+    if (display.textContent.includes("normal")) {
+        title.style.background = "var(--dark)";
+        navigation.style.background = "var(--blue)";
+        main.style.background = "var(--black)";
+        buttons.forEach(btn => {
             btn.classList.remove("hover-normal");
             btn.classList.add("hover-dark");
         });
-
-        footer.style.background ="var(--dark)";
-        display.textContent ="dark";
-    } else{
-        title.style.background ="var(--blue)";
+        footer.style.background = "var(--dark)";
+        display.textContent = "dark";
+    } else {
+        title.style.background = "var(--blue)";
         navigation.style.background = "var(--dark)";
-        main.style.background ="var(--white)";
-        buttons.forEach(btn =>{
+        main.style.background = "var(--white)";
+        buttons.forEach(btn => {
             btn.classList.remove("hover-dark");
             btn.classList.add("hover-normal");
         });
-        footer.style.background ="var(--blue)";
-        display.textContent ="normal";
+        footer.style.background = "var(--blue)";
+        display.textContent = "normal";
     }
-    
 });

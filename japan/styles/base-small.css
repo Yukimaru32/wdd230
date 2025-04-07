@@ -239,6 +239,13 @@ input:checked + .slider:before {
     margin: 10px;
     text-align: left;
 }
+#chibanion h2{
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 table {
     width: 100%;
     border-collapse: collapse;
