@@ -27,7 +27,7 @@
 h1{
     color: var(--white);
     font-size: 15px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Chonburi", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -300,10 +300,19 @@ form {
     font-weight: 400;
     font-style: normal;
 }
+form h2{
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 label {
     margin-top: 10px;
     font-weight: bold;
+}
+
+form label{
+    padding: 5px;
 }
 
 input, button {

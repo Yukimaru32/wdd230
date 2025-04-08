@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Heebo&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Gothic+A1:wght@300&family=Heebo&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>WDD230 Chamber of Commerce Join</title>
 </head>
 <body>
@@ -47,59 +47,27 @@
     </header>
     <div id="display">normal</div>
     <main id="registration">
-        <h2 id="register">Registration Form</h2>
+        <h2 id="register">Review Form</h2>
         <form action="thankyou.html" method="get">
-            <label>
-                First Name:
-                <input type="text" name="first_name" id="first_name" required>
-            </label>
-            <label>
-                Last Name:
-                <input type="text" name="last_name" id="last_name" required>
-            </label>
-            
-            <label>
-                Title/Position:
-                <input type="text" name="title" id="title" required pattern="^[A-Za-z\-\s]{7,}$">
-            </label>
-            
-            <label>
-                Email:
-                <input type="email" name="email" id="email" required placeholder="example@domain.com">
-            </label>
-            
-            <label>
-                Mobile Phone:
-                <input type="tel" name="mobile" id="mobile" required>
-            </label>
-            
-            <label>
-                Business/Organization Name:
-                <input type="text" name="organization" id="organization" required>
-            </label>
-            
-            <label>
-                Membership Level:
-                <select name="membership_level" id="membership_level" required>
-                    <option value="" selected disabled>Select Membership</option>
-                    <option value="np">NP Membership (No Fee)</option>
-                    <option value="bronze">Bronze Membership</option>
-                    <option value="silver">Silver Membership</option>
-                    <option value="gold">Gold Membership</option>
-                </select>
-            </label>
-            
-            <label>Business/Organization Description:
-                <textarea name="description" id="description"></textarea>
-            </label>
+            <div>Overall Rating</div>
+            <label><input id="1star" type="radio" name="audience" value="star" required>&star;</label>
+            <label><input id="2star" type="radio" name="audience" value="star" required>&star;&star;</label>
+            <label><input id="3star" type="radio" name="audience" value="star" required>&star;&star;&star;</label>
+            <label><input id="4star" type="radio" name="audience" value="star" required>&star;&star;&star;&star;</label>
+            <label><input id="5star" type="radio" name="audience" value="star" required>&star;&star;&star;&star;&star;</label>
+            <div>Visiting Date</div>
+            <label><input id="date" type="date" name="date" required></label>
+            <div>What did you like about this manga?(Select ALL that apply)</div>
+            <label><input id="character" type="checkbox" name="feature" value="yes">Picture</label>
+            <label><input id="plot" type="checkbox" name="feature" value="yes">Usability</label>
+            <label><input id="graphic" type="checkbox" name="feature" value="yes">Taste</label>
+            <label><input id="story" type="checkbox" name="feature" value="yes">Content</label>
+            <div>Written Review</div>
+            <textarea rows="6" cols="50" name="review" required></textarea>
+            <div>Name(Optional)</div>
+            <label><input type="text" name="username"></label>
             <input type="hidden" name="timestamp" id="timestamp">
-            <aside class="membership-benefits">
-                <h3>Membership Benefits</h3>
-                <div id="benefit-details">
-                    <p>Select a membership level to see the benefits.</p>
-                </div>
-            </aside>
-            <button type="submit" id="submit" name="submit">Submit Application</button>
+            <button type="submit" id="submit" name="submit">Post My Review</button>
         </form>
     </main>
     <footer>

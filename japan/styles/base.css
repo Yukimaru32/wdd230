@@ -230,9 +230,8 @@
         grid-column: 1/3;
     }
     form {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    
+        display: block;
+        padding: 5px;
     }
     .membership-benefits{
         display:block;
