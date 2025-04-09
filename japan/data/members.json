@@ -33,7 +33,7 @@
       "name": "Okonomiyaki",
       "location": "Osaka, Japan",
       "url": "https://www.justonecookbook.com/okonomiyaki/",
-      "category": "pork"
+      "category": "local"
     },
     {
       "image": "https://www.seriouseats.com/thmb/aUWsOISQiOslIAeX0iSob0WH5LE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cold-soba-recipe-hero-290164d6d6114f338d513eb6da032ae8.jpg",
@@ -48,6 +48,13 @@
       "location": "Kyoto, Japan",
       "url": "https://www.justonecookbook.com/homemade-miso-soup/",
       "category": "classic"
+    },
+    {
+      "image": "https://www.justonecookbook.com/wp-content/uploads/2019/10/Karaage-9515-I-1.jpg",
+      "name": "Karaage",
+      "location": "Ohita, Japan",
+      "url": "https://www.justonecookbook.com/karaage/",
+      "category": "popular"
     }
   ]
 }

@@ -466,7 +466,7 @@ section a{
     font-family: "Heebo", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   #close-banner {
     color: var(--black);
     position: absolute;
@@ -476,5 +476,8 @@ section a{
     border: none;
     font-size: 18px;
     cursor: pointer;
-  }
+}
+#bigtext{
+    color: var(--red);
+}
 
