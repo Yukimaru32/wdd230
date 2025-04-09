@@ -234,6 +234,11 @@ input:checked + .slider:before {
 #calender{
     height:300px;
 }
+#history h2,
+#dashi h2,
+#nutrition h2,
+#contrast h2,
+#teriyaki h2,
 #tempura h2,
 #ramen h2,
 #culture h2{

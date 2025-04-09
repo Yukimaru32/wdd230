@@ -1,6 +1,9 @@
 @media screen and (min-width:900px){
     h1{
         font-size: 30px;
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
     }
     .titletop {
         display: flex;
@@ -206,7 +209,7 @@
     #calender{
         height:400px;
     }
-    
+
     table {
         width: 100%;
         border-collapse: collapse;
