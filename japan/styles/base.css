@@ -206,11 +206,7 @@
     #calender{
         height:400px;
     }
-    #chibanion p{
-        line-height: 30px;
-        margin: 10px;
-        text-align: left;
-    }
+    
     table {
         width: 100%;
         border-collapse: collapse;
@@ -296,5 +292,9 @@
         border: none;
         font-size: 18px;
         cursor: pointer;
+    }
+    section p{
+        line-height: 30px;
+        margin: 10px;
     }
 }

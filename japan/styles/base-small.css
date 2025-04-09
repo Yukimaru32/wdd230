@@ -234,12 +234,9 @@ input:checked + .slider:before {
 #calender{
     height:300px;
 }
-#chibanion p{
-    line-height: 30px;
-    margin: 10px;
-    text-align: left;
-}
-#chibanion h2{
+#tempura h2,
+#ramen h2,
+#culture h2{
     font-family: "Chonburi", serif;
     font-weight: 400;
     font-style: normal;
