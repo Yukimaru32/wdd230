@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>~Scoots~ - Reservations</title>
+  <link rel="stylesheet" href="styles/stylesmall.css" media="only screen and (max-width: 600px)">
+  <link rel="stylesheet" href="styles/stylemid.css" media="only screen and (min-width: 600px) and (max-width: 1024px)">
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    /* Using CSS Grid for a responsive reservation form layout */
+    .reservation-form {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    @media (min-width: 600px) {
+      .reservation-form {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contact-info">
+      <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
+    </div>
+  </header>
+  
+  <main>
+    <section id="rental-agreement">
+      <h1>Rental Agreement & Information</h1>
+      <p>
+        A $50 security deposit is required to confirm reservations. A valid driver's license is required at the time of rental.
+        No one under the age of 12 may ride on scooters. Fuel charges are not included. Enjoy unlimited mileage. Liability insurance is
+        included, and damage insurance is available for purchase. Free delivery is available for rentals of 2+ days (to Cozumel hotels or Airbnbs).
+        We accept payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo. Rentals may be returned to either of our locations.
+      </p>
+    </section>
+
+    <section id="reservation-form-section">
+      <h2>Reservation Form</h2>
+      <form class="reservation-form" action="submit_reservation.php" method="post">
+        <label for="rental-date">Rental Date:</label>
+        <input type="date" id="rental-date" name="rental_date" required>
+        
+        <label for="rental-period">Rental Period:</label>
+        <select id="rental-period" name="rental_period" required>
+          <option value="half_day">Half Day (3 hrs)</option>
+          <option value="full_day">Full Day</option>
+        </select>
+        
+        <label for="rental-type">Rental Type:</label>
+        <select id="rental-type" name="rental_type" required>
+          <option value="honda_metro">Honda Metropolitan Scooter</option>
+          <option value="honda_dio">Honda Dio Scooter</option>
+          <option value="honda_pcx150">Honda PCX150 Scooter</option>
+          <option value="honda_pioneer">Honda Pioneer ATV</option>
+          <option value="jeep_4door">Jeep Wrangler - 4 Door with A/C</option>
+          <option value="jeep_2door">Jeep Wrangler - 2 Door</option>
+        </select>
+        
+        <label for="renter-name">Name:</label>
+        <input type="text" id="renter-name" name="name" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="home-location">Home State/Country:</label>
+        <input type="text" id="home-location" name="home_location" required>
+        
+        <label for="cruise-line">Cruise Line (if applicable):</label>
+        <input type="text" id="cruise-line" name="cruise_line">
+        
+        <label for="special-accommodations">Special Accommodations/Comments:</label>
+        <textarea id="special-accommodations" name="special_accommodations" rows="4"></textarea>
+        
+        <button type="submit">Submit Reservation</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ~Scoots~. All rights reserved.</p>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

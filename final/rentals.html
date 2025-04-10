@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>~Scoots~ - Rentals</title>
+  <link rel="stylesheet" href="styles/stylesmall.css" media="only screen and (max-width: 600px)">
+  <link rel="stylesheet" href="styles/stylemid.css" media="only screen and (min-width: 600px) and (max-width: 1024px)">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contact-info">
+      <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="rental-info">
+      <h1>Our Rental Options</h1>
+      <p>Explore our range of motor scooters, ATVs, and Jeeps.</p>
+      <div class="rental-item">
+         <img src="images/honda_metro.avif" alt="Honda Metro Scooter">
+         <h3>Honda Metropolitan Scooter</h3>
+         <p>Perfect for 1 person.</p>
+      </div>
+      <div class="rental-item">
+         <img src="images/honda_dio.png" alt="Honda Dio Scooter">
+         <h3>Honda Dio Scooter</h3>
+         <p>Great for 2 persons.</p>
+      </div>
+      <div class="rental-item">
+         <img src="images/honda_pcx150.jpg" alt="Honda PCX150 Scooter">
+         <h3>Honda PCX150 Scooter</h3>
+         <p>Great for 2 persons.</p>
+      </div>
+      <div class="rental-item">
+         <img src="images/honda_pioneer.avif" alt="Honda Pioneer ATV">
+         <h3>Honda Pioneer ATV</h3>
+         <p>Accommodates up to 4 persons.</p>
+      </div>
+      <div class="rental-item">
+         <img src="images/jeep_wrangler_4door.avif" alt="Jeep Wrangler 4 Door with A/C">
+         <h3>Jeep Wrangler - 4 Door with A/C</h3>
+         <p>Seats up to 5 persons.</p>
+      </div>
+      <div class="rental-item">
+         <img src="images/jeep_wrangler_2door.avif" alt="Jeep Wrangler 2 Door">
+         <h3>Jeep Wrangler - 2 Door</h3>
+         <p>Seats up to 4 persons.</p>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing Information</h2>
+      <table id="pricing-table">
+        <thead>
+          <tr>
+            <th>Rental Type</th>
+            <th>Max Persons</th>
+            <th>Reservation Half Day</th>
+            <th>Reservation Full Day</th>
+            <th>Walk-In Half Day</th>
+            <th>Walk-In Full Day</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Pricing data will be dynamically loaded here from the JSON file -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ~Scoots~. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>~Scoots~ - Contact Us</title>
+  <link rel="stylesheet" href="styles/stylesmall.css" media="only screen and (max-width: 600px)">
+  <link rel="stylesheet" href="styles/stylemid.css" media="only screen and (min-width: 600px) and (max-width: 1024px)">
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contact-info">
+      <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
+    </div>
+  </header>
+  
+  <main>
+    <section id="contact-details">
+      <h1>Contact Us</h1>
+      <p>
+        You can reach us via email at <a href="mailto:info@scoots.com">info@scoots.com</a> or call us at +52 123 456 7890.
+        Visit us at one of our two locations in Cozumel:
+      </p>
+      <ul>
+        <li>El Centro de Cozumel (near Playa del Carmen-Cozumel Ferry dock)</li>
+        <li>Terminal Puerta Maya (for cruise lines and patrons)</li>
+      </ul>
+    </section>
+    
+    <section id="map">
+      <h2>Our Locations</h2>
+      <!-- Embedded Google Map (example embed; you can adjust the location details as needed) -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119576.80791481822!2d-87.0243247474909!3d20.515437736550698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2z44Kz44K544Oh44Or!5e0!3m2!1sja!2sus!4v1744247548234!5m2!1sja!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section id="contact-form-section">
+      <h2>Send Us a Message</h2>
+      <form class="contact-container" action="submit_contact.php" method="post">
+        <label for="contact-name">Name:</label>
+        <input type="text" id="contact-name" name="name" required>
+        
+        <label for="contact-email">Email:</label>
+        <input type="email" id="contact-email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ~Scoots~. All rights reserved.</p>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

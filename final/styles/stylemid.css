@@ -1,0 +1,51 @@
+/* css/style-middle.css */
+
+/* Adjust body font size and layout spacing for tablets */
+body {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Center the navigation and adjust its spacing */
+  header nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Center the contact info for a balanced layout */
+  header .contact-info {
+    text-align: center;
+    margin-top: 8px;
+  }
+  
+  /* Hero section adjustments */
+  #hero {
+    text-align: center;
+    padding: 20px;
+  }
+  #hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  #hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Rental items should appear in two columns */
+  .rental-item {
+    width: 45%;
+    margin: 10px 2.5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Adjust table font size for pricing details */
+  table, th, td {
+    font-size: 0.95rem;
+  }
+  
+  /* Increase spacing around sections */
+  section {
+    margin-bottom: 20px;
+  }
