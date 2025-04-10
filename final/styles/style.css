@@ -1,6 +1,6 @@
-/* css/style.css */
+@media screen and (min-width: 1000px){
 
-body {
+  body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -9,8 +9,13 @@ body {
   
   header {
     background-color: #004080;
+    display: flex;
+    justify-content: space-between;
     color: #fff;
     padding: 10px;
+  }
+  header h1{
+    margin-right: 150px;
   }
   
   nav ul {
@@ -27,14 +32,22 @@ body {
   }
   
   .contact-info {
-    text-align: right;
+    display: flex;
+    text-align: left;
     font-size: 0.9em;
   }
   
   main {
     padding: 20px;
   }
-  
+  form{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
   footer {
     background-color: #004080;
     color: #fff;
@@ -114,3 +127,18 @@ body {
     margin: 5px;
     text-align: center;
   }
+  #logo{
+    height: 90px;
+    width: 150px
+  }
+  #contactmain{
+    display: flex;
+    gap: 1rem;
+  }
+  #contactmain form{
+    width: 100%;
+  }
+  button{
+    grid-column: 1/3;
+  }
+}

@@ -1,10 +1,4 @@
-/* css/style-middle.css */
-
-/* Adjust body font size and layout spacing for tablets */
-body {
-    font-size: 16px;
-    padding: 10px;
-  }
+@media screen and (min-width: 600px) {
   
   /* Center the navigation and adjust its spacing */
   header nav ul {
@@ -49,3 +43,7 @@ body {
   section {
     margin-bottom: 20px;
   }
+  button{
+    grid-column: 1/3;
+  }
+}

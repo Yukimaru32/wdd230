@@ -4,18 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>~Scoots~ - Home</title>
-  <link rel="stylesheet" href="styles/stylesmall.css" media="only screen and (max-width: 600px)">
-  <link rel="stylesheet" href="styles/stylemid.css" media="only screen and (min-width: 600px) and (max-width: 1024px)">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/stylesmall.css">
+  <link rel="stylesheet" href="styles/stylemid.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <!-- Closeable top banner displaying today's high temperature -->
-  <div id="banner-container">
-    <div id="weather-banner">
-      <!-- The high temperature (temp_max) will be updated here by JavaScript -->
-    </div>
-    <button id="banner-close" onclick="closeBanner()">X</button>
-  </div>
+
 
   <header>
     <nav>
@@ -26,9 +21,9 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <h1>Scoots Rental</h1>
     <div class="contact-info">
-        <img src="images/logo.png" alt="scoot logo">
-        <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
+      <a href="index.html"><img id="logo" src="images/logo.png" alt="scoot logo"></a>
     </div>
   </header>
 
@@ -62,19 +57,15 @@
          <p>Tomorrow 3:00 PM Temperature: <span id="tomorrow-temp"></span></p>
       </div>
     </section>
-
-    <section id="social-media">
-      <h2>Connect with Us</h2>
-      <a href="https://www.facebook.com/" target="_blank">Facebook</a> | 
-      <a href="https://www.instagram.com/" target="_blank">Instagram</a> | 
-      <a href="https://twitter.com/" target="_blank">Twitter</a>
-    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 ~Scoots~. All rights reserved.</p>
+      <h3>Connect with Us</h3>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a> | 
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a> | 
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+    <p>&copy; 2025 ~Scoots~. All rights reserved.</p>     <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
   </footer>
-
-  <script src="js/main.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 </html>
