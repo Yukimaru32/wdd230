@@ -21,7 +21,7 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <h1>Scoots Rental</h1>
+    <h1>🌴 Scoots Rental 🌴</h1>
     <div class="contact-info">
       <a href="index.html"><img id="logo" src="images/logo.png" alt="scoot logo"></a>
     </div>
@@ -29,43 +29,50 @@
 
   <main>
     <section id="hero">
-        <img src="images/cozumelbig.webp" alt="Cozumel Island">
+      <picture class="hero">
+        <source srcset="images/cuzmelsmall.webp" media="(max-width: 600px)" width=350>
+        <source srcset="images/cuzmelmid.webp" media="(max-width: 1000px)" width="700">
+        <img src="images/cozumelbig.webp" alt="bigscenary image"  width=800>
+      </picture>
         <h1>Welcome to ~Scoots~</h1>
         <p>Your one-stop rental service for motor scooters, jeeps, and ATVs in Cozumel!</p>
       <button onclick="location.href='reservations.html'">Make a Reservation</button>
     </section>
+    <div id = main-container>
 
-    <section id="rental-summary">
-      <h2>Our Rentals</h2>
-      <ul>
-        <li>Honda Motor Scooters</li>
-        <li>Side-by-Side ATVs</li>
-        <li>Jeeps</li>
-      </ul>
-    </section>
-
-    <section id="weather">
-      <h2>Weather Information</h2>
-      <div id="current-weather">
-         <p>Current Temperature: <span id="current-temp"></span></p>
-         <p>Current Humidity: <span id="current-humidity"></span></p>
-         <div id="weather-details">
-           <!-- Dynamic weather details (main, description, and icon) will appear here -->
-         </div>
-      </div>
-      <div id="forecast">
-         <p>Tomorrow 3:00 PM Temperature: <span id="tomorrow-temp"></span></p>
-      </div>
-    </section>
+      <section id="rental-summary">
+        <h2>Our Rentals</h2>
+        <ul>
+          <li>Honda Motor Scooters</li>
+          <li>Side-by-Side ATVs</li>
+          <li>Jeeps</li>
+        </ul>
+      </section>
+      
+      <section id="weather">
+        <h2>Weather Information</h2>
+        <div id="current-weather">
+          <p>Current Temperature: <span id="current-temp"></span></p>
+          <p>Current Humidity: <span id="current-humidity"></span></p>
+          <div id="weather-details">
+            <!-- Dynamic weather details (main, description, and icon) will appear here -->
+          </div>
+        </div>
+        <div id="forecast">
+          <p>Tomorrow 3:00 PM Temperature: <span id="tomorrow-temp"></span></p>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer>
-      <h3>Connect with Us</h3>
-      <a href="https://www.facebook.com/" target="_blank">Facebook</a> | 
-      <a href="https://www.instagram.com/" target="_blank">Instagram</a> | 
-      <a href="https://twitter.com/" target="_blank">Twitter</a>
-    <p>&copy; 2025 ~Scoots~. All rights reserved.</p>     <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
+    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp"></a> 
+    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.webp"></a> 
+    <a href="https://twitter.com/" target="_blank"><img src="images/x.webp"></a>  
+    <p>&copy;<span id="currentyear"></span> ~Scoots~. All rights reserved | <span id="lastModified"></span></p>
+    <p>Email: info@scoots.com | Phone: +52 123 456 7890</p>
   </footer>
-  <script src="scripts/weather.js"></script>
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
 </body>
 </html>

@@ -2,7 +2,8 @@
   --blue:#004080;
   --white:#fff;
   --black:#000;
-  --green:#079405;
+  --green:#026100;
+  --dgreen:#043803;
 }
 
 /* Change navigation to a vertical stack */
@@ -38,6 +39,9 @@ button{
   color: var(--white);
   background-color: var(--green);
   border-radius: 8px;
+}
+button:hover{
+  background-color: var(--dgreen);
 }
 /* Rental items: full width for easier viewing on small screens */
 .rental-item {
