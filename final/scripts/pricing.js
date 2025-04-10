@@ -7,8 +7,8 @@ async function getLinks() {
 }
 getLinks();
 const displayLinks = (rentals) =>{
-    const container = document.getElementById("pricing-table");
-
+    
+    let tableBody ="";
     rentals.forEach(rental => {
         tableBody += `<tr>
             <td>${rental.name}</td>
@@ -18,8 +18,8 @@ const displayLinks = (rentals) =>{
             <td>$${rental.prices.walk_in.half_day}</td>
             <td>$${rental.prices.walk_in.full_day}</td>
         </tr>`;
+        document.querySelector('#pricing-table tbody').innerHTML = tableBody;
 
-        container.appendChild(tableBody);
     });
 
 }
