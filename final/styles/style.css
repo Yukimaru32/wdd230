@@ -153,6 +153,9 @@
 .navigation li{
     display: block;
     margin: 0;
-
+}
+iframe{
+  width: 600px;
+  height: 500px;
 }
 }
