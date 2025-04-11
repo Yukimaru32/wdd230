@@ -143,22 +143,31 @@
   }
   #menu{
     display: none;
-}
-.navigation ul{
+  }
+    .navigation ul{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.navigation li{
+  }
+  .navigation li{
     display: block;
     margin: 0;
-}
-iframe{
-  width: 600px;
-  height: 500px;
-}
-h1{
-  font-size: 26px;
-}
+  }
+  iframe{
+    width: 600px;
+    height: 500px;
+  }
+  h1{
+    font-size: 26px;
+  }
+  #main-container section {
+    margin: 20px;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    padding: 10px;
+  }
+  #reservationbutton{
+    padding: 20px;
+  }
 }

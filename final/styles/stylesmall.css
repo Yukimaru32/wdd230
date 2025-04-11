@@ -135,7 +135,7 @@ nav a:hover{
 
 }
 .rental-item {
-  border: 1px solid var(--white);
+  border: 1px solid #ddd;
   padding: 10px;
 
   display: inline-block;
@@ -144,9 +144,10 @@ nav a:hover{
   vertical-align: top;
   background-color: var(--white);
 }
+
 .rental-item img {
-  width: 100%;
-  height: 150px;
+  width: 280px;
+  height: 180px;
 }
 #logo{
   height: 50px;
@@ -192,4 +193,14 @@ iframe{
 h2{
   font-size: medium;
   padding: 5px;
+}
+p{
+  padding: 10px;
+}
+
+#main-container section {
+  margin: 20px;
+  border: 1px solid var(--black);
+  border-radius: 8px;
+  padding: 10px;
 }

@@ -67,8 +67,10 @@
     color: #fff;
     padding: 10px;
   }
-  header h1{
-    margin-right: 150px;
+
+  h1{
+    font-size: 20px;
+    padding: 20px;
   }
   
   nav ul {
