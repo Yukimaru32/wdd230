@@ -3,23 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>~Scoots~ - Reservations</title>
+  <meta name="author" content ="Yuki Ikeda">
+  <meta name="description" content ="This is a final website page for WDD230.">
+
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/stylesmall.css">
   <link rel="stylesheet" href="styles/stylemid.css">
   <link rel="stylesheet" href="styles/style.css">
-  <style>
-    /* Using CSS Grid for a responsive reservation form layout */
-    .reservation-form {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
-    @media (min-width: 600px) {
-      .reservation-form {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-  </style>
+  <title>WDD230 Yuki Ikeda Final Scoots</title>
+
 </head>
 <body>
   <header>
@@ -59,12 +52,14 @@
         
         <label for="rental-period">Rental Period:</label>
         <select id="rental-period" name="rental_period" required>
+          <option value="" selected disabled>Select Period</option>
           <option value="half_day">Half Day (3 hrs)</option>
           <option value="full_day">Full Day</option>
         </select>
         
         <label for="rental-type">Rental Type:</label>
         <select id="rental-type" name="rental_type" required>
+          <option value="" selected disabled>Select Viechle</option>
           <option value="honda_metro">Honda Metropolitan Scooter</option>
           <option value="honda_dio">Honda Dio Scooter</option>
           <option value="honda_pcx150">Honda PCX150 Scooter</option>

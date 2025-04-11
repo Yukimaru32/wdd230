@@ -67,7 +67,7 @@ function displayForecast(data) {
 
     forecastContainer.innerHTML = `
       <div class="forecast-item">
-        <h4>Forecast for ${forecastDate.toLocaleDateString('en-US', { weekday: 'long' })}</h4>
+        <h4>Forecast for ${forecastDate.toLocaleDateString('en-US', { weekday: 'long' })} at 3 p.m.</h4>
         <img src="${iconUrl}" alt="${desc}" />
         <p>${forecastTemp}°F - ${desc.charAt(0).toUpperCase() + desc.slice(1)}</p>
       </div>
