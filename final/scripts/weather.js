@@ -25,10 +25,56 @@ async function fetchCurrentWeather() {
 }
 
 // Display the current temperature and moisture (humidity)
+// Also calls a new function to display the high temperature banner.
 function displayCurrentWeather(data) {
   currentTemperature = data.main.temp;
   currentTemp.innerHTML = `Temperature: ${currentTemperature.toFixed(0)}°F`;
   currentMoisture.innerHTML = `Humidity: ${data.main.humidity}%`;
+
+  // Call the function to show the high temperature banner (temp_max)
+  showHighTempBanner(data.main.temp_max);
+}
+
+// New function: creates a closable banner at the top of the page displaying the high temperature for today.
+function showHighTempBanner(tempMax) {
+  // Avoid adding the banner if it already exists
+  if (document.getElementById('high-temp-banner')) return;
+
+  // Create the banner container
+  const banner = document.createElement('div');
+  banner.id = 'high-temp-banner';
+  
+  // Simple inline styles for demonstration (adjust or move to CSS as needed)
+  banner.style.backgroundColor = '#ffcc00';
+  banner.style.color = '#000';
+  banner.style.padding = '10px';
+  banner.style.textAlign = 'center';
+  banner.style.position = 'relative';
+
+  // Set the banner's text with the high temperature info
+  banner.innerHTML = `Today's high temperature: ${tempMax.toFixed(0)}°F `;
+
+  // Create the close button
+  const closeButton = document.createElement('button');
+  closeButton.textContent = '✕';
+  closeButton.style.position = 'absolute';
+  closeButton.style.right = '10px';
+  closeButton.style.top = '10px';
+  closeButton.style.background = 'transparent';
+  closeButton.style.border = 'none';
+  closeButton.style.fontSize = '1.2rem';
+  closeButton.style.cursor = 'pointer';
+
+  // Add event listener to hide the banner when the button is clicked
+  closeButton.addEventListener('click', () => {
+    banner.style.display = 'none';
+  });
+
+  // Append the close button to the banner
+  banner.appendChild(closeButton);
+
+  // Insert the banner at the very top of the body
+  document.body.insertBefore(banner, document.body.firstChild);
 }
 
 // Invoke the API fetch for current weather
