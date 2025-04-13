@@ -135,9 +135,7 @@
     display: flex;
     gap: 1rem;
   }
-  #contactmain form{
-    width: 100%;
-  }
+
   button{
     grid-column: 1/3;
   }
